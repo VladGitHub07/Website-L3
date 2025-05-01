@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Встановлює кодування сторінки-->
+    <meta charset="UTF-8">
+    <!--Назва сторінки-->
+    <title>My Form</title>
+</head>
+<body>
+   <!-- Перехід на головну сторінку -->
+    <nav>
+        <a href="\index.html">Головна</a>
+    </nav>
+    <!--Форма-->
+    <form action="#" method="post">
+        <br>
+        <fieldset>
+            <legend>Personal information</legend>
+            <br>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+            <label for="age">Your age:</label>
+            <input type="text" id="age" name="age" placeholder="Enter your age"><br><br>
+        </fieldset>
+        <br>
+        <label for="password">Your password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+        Male <input type="radio" name="gender" value="male">
+        Female <input type="radio" name="gender" value="female"><br><br>
+        Remember me: <input type="checkbox" name="remember"><br><br>
+        <label for="city">Select your city:</label>
+        <select name="city" id="city">
+            <option value="kyiv">Kyiv</option>
+            <option value="lviv">Lviv</option>
+            <option value="kharkiv">Kharkiv</option>
+            <option value="odesa">Odesa</option>
+        </select><br><br>
+        <label for="message">Enter your message:</label><br>
+        <textarea id="message" name="message" rows="3" cols="30"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
